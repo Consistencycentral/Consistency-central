@@ -1,6 +1,6 @@
 # timeto.me - Goals Tracker 24/7
 
-This is a modified version of the original timeto.me project. All modifications and additions (including AdMob integration) are provided under the same GPL v3.0 license.
+This is a modified version of the original timeto.me project. All modifications and additions are provided under the same GPL v3.0 license.
 
 App Store https://apps.apple.com/us/app/id6448869727
 

@@ -6,11 +6,11 @@ plugins {
 
 android {
 
-    namespace = "me.timeto.app"
+    namespace = "com.habitarc.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "me.timeto.app"
+        applicationId = "com.habitarc.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 603

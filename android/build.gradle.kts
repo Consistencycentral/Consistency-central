@@ -6,11 +6,11 @@ plugins {
 
 android {
 
-    namespace = "com.habitarc.app"
+    namespace = "com.Habitarc.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.habitarc.app"
+        applicationId = "com.Habitarc.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 603

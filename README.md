@@ -2,13 +2,13 @@
 
 This is a modified version of the original timeto.me project. All modifications and additions are provided under the same GPL v3.0 license.
 
-App Store https://apps.apple.com/us/app/id6448869727
+App Store  
 
-Google Play https://play.google.com/store/apps/details?id=com.habitarc.app
+Google Play  
 
-F-Droid https://f-droid.org/en/packages/com.habitarc.app
+F-Droid https: 
 
-Any questions [ivan@timeto.me](mailto:ivan@timeto.me?subject=[GitHub]%20Feedback)
+Any questions  
 
 <p float="left">
   <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="200" />

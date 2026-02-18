@@ -1,3 +1,3 @@
-rootProject.name = "timeto.me"
+rootProject.name = "habitarc"
 include(":android")
 include(":shared")

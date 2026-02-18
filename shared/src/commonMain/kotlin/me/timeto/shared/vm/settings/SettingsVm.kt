@@ -48,7 +48,7 @@ class SettingsVm : Vm<SettingsVm.State>() {
         val todayOnHomeScreen: Boolean,
     ) {
 
-        val headerTitle = "timeto.me"
+        val headerTitle = "habitarc"
         val readmeTitle = "How to Use the App"
         val whatsNewTitle = "What's New"
         val whatsNewNote: String =
@@ -76,7 +76,7 @@ class SettingsVm : Vm<SettingsVm.State>() {
                 is SystemInfo.Os.Watchos -> "watchOS"
             }
             val flavor: String = systemInfo.flavor?.let { "-$it" } ?: ""
-            "timeto.me for $osName\nv${systemInfo.version}.${systemInfo.build}$flavor"
+            "habitarc for $osName\nv${systemInfo.version}.${systemInfo.build}$flavor"
         }
     }
 

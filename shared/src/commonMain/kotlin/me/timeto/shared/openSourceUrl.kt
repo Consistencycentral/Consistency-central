@@ -1,3 +1,3 @@
 package me.timeto.shared
 
-const val openSourceUrl = "https://github.com/Medvedev91/timeto.me"
+const val openSourceUrl = "https://github.com/Medvedev91/habitarc"

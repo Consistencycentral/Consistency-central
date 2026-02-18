@@ -1,4 +1,4 @@
-# timeto.me - Productivity Tools App
+# habitarc - Productivity Tools App
 
 App Store https://apps.apple.com/us/app/id6448869727
 
@@ -6,7 +6,7 @@ Google Play https://play.google.com/store/apps/details?id=com.habitarc.app
 
 F-Droid https://f-droid.org/en/packages/com.habitarc.app
 
-Any questions [ivan@timeto.me](mailto:ivan@timeto.me?subject=[GitHub]%20Feedback)
+Any questions [ivan@habitarc](mailto:ivan@habitarc?subject=[GitHub]%20Feedback)
 
 <p float="left">
   <img src="/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" width="200" />
@@ -261,4 +261,4 @@ Especially for night owls. You can set the time when repeating tasks will be add
 
 I hope the app will improve your life like it improved mine. I would be very happy to get feedback and answer questions.
 
-Any questions [ivan@timeto.me](mailto:ivan@timeto.me?subject=[GitHubReadme]%20Feedback)
+Any questions [ivan@habitarc](mailto:ivan@habitarc?subject=[GitHubReadme]%20Feedback)

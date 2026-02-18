@@ -42,7 +42,7 @@ android {
         }
     }
 
-    // https://github.com/Medvedev91/timeto.me/issues/84
+    // https://github.com/Medvedev91/habitarc/issues/84
     dependenciesInfo {
         includeInApk = false
         includeInBundle = false

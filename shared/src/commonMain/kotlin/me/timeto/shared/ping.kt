@@ -18,7 +18,7 @@ suspend fun ping(
 ) {
     try {
         HttpClient().use { client ->
-            val httpResponse = client.get("https://api.timeto.me/ping") {
+            val httpResponse = client.get("https://api.habitarc/ping") {
                 val token = KvDb.selectTokenOrNullSafe()
                 val password = getsertTokenPassword()
                 url {

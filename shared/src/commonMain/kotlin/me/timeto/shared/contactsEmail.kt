@@ -1,3 +1,3 @@
 package me.timeto.shared
 
-const val contactsEmail = "ivan@timeto.me"
+const val contactsEmail = "ivan@habitarc"

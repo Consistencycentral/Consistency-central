@@ -28,7 +28,7 @@ fun reportApi(
             HttpClient().use {
                 val token = KvDb.selectTokenOrNullSafe()
                 it.submitForm(
-                    url = "https://api.timeto.me/report",
+                    url = "https://api.habitarc/report",
                     formParameters = Parameters.build {
                         append("title", title)
                         append("message", message)

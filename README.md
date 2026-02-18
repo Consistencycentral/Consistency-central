@@ -1,6 +1,6 @@
 # habitarc app - Goals Tracker 24/7
 
-This is a modified version of the original timeto.me project. All modifications and additions are provided under the same GPL v3.0 license.
+This is a modified version of the original habitarc project. All modifications and additions are provided under the same GPL v3.0 license.
 
 App Store  
 

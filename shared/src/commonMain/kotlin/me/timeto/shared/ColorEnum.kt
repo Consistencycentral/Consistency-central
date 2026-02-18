@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 enum class ColorEnum {
 

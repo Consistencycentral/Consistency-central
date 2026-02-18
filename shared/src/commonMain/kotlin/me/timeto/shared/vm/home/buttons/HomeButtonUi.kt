@@ -1,6 +1,6 @@
-package me.timeto.shared.vm.home.buttons
+package habitarc.shared.vm.home.buttons
 
-import me.timeto.shared.HomeButtonSort
+import habitarc.shared.HomeButtonSort
 import kotlin.Float
 
 data class HomeButtonUi(

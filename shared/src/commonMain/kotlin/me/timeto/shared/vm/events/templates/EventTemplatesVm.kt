@@ -1,11 +1,11 @@
-package me.timeto.shared.vm.events.templates
+package habitarc.shared.vm.events.templates
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.db.EventTemplateDb
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.db.EventTemplateDb
+import habitarc.shared.onEachExIn
+import habitarc.shared.vm.Vm
 
 class EventTemplatesVm : Vm<EventTemplatesVm.State>() {
 

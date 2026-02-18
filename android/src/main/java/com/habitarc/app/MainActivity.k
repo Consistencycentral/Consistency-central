@@ -40,18 +40,18 @@ import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.NavigationFs
 import com.habitarc.app.ui.pxToDp
 import com.habitarc.app.ui.rememberVm
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.BatteryInfo
-import me.timeto.shared.LiveActivity
-import me.timeto.shared.NotificationAlarm
-import me.timeto.shared.NotificationsPermission
-import me.timeto.shared.backups.AutoBackup
-import me.timeto.shared.ShortcutPerformer
-import me.timeto.shared.keepScreenOnStateFlow
-import me.timeto.shared.localUtcOffsetSync
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.reportApi
-import me.timeto.shared.vm.app.AppVm
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.BatteryInfo
+import habitarc.shared.LiveActivity
+import habitarc.shared.NotificationAlarm
+import habitarc.shared.NotificationsPermission
+import habitarc.shared.backups.AutoBackup
+import habitarc.shared.ShortcutPerformer
+import habitarc.shared.keepScreenOnStateFlow
+import habitarc.shared.localUtcOffsetSync
+import habitarc.shared.onEachExIn
+import habitarc.shared.reportApi
+import habitarc.shared.vm.app.AppVm
 
 class MainActivity : ComponentActivity() {
 

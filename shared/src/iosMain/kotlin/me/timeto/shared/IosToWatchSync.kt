@@ -1,14 +1,14 @@
 @file:OptIn(ExperimentalForeignApi::class)
 
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.serialization.json.*
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.db.TaskDb
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.db.TaskDb
 import platform.WatchConnectivity.WCSession
-import me.timeto.shared.backups.Backup
-import me.timeto.shared.db.Goal2Db
+import habitarc.shared.backups.Backup
+import habitarc.shared.db.Goal2Db
 
 object IosToWatchSync {
 

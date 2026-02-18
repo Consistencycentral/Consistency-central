@@ -25,9 +25,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.shortcuts.ShortcutsPickerFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.db.EventTemplateDb
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.events.templates.EventTemplateFormVm
+import habitarc.shared.db.EventTemplateDb
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.events.templates.EventTemplateFormVm
 
 @Composable
 fun EventTemplateFormFs(

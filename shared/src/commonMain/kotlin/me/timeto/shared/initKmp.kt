@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 import app.cash.sqldelight.adapter.primitive.IntColumnAdapter
 import app.cash.sqldelight.db.SqlDriver
@@ -18,7 +18,7 @@ import dbsq.TaskSQ
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.async
 import com.habitarc.appdbsq.TimetomeDB
-import me.timeto.shared.db.db
+import habitarc.shared.db.db
 
 lateinit var initKmpDeferred: Deferred<Unit>
 

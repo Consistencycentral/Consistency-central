@@ -1,4 +1,4 @@
-package me.timeto.shared.vm.calendar
+package habitarc.shared.vm.calendar
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
@@ -10,12 +10,12 @@ import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.plus
 import kotlinx.datetime.toLocalDateTime
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.EventDb
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.textFeatures
-import me.timeto.shared.vm.Vm
+import habitarc.shared.UnixTime
+import habitarc.shared.db.EventDb
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.onEachExIn
+import habitarc.shared.textFeatures
+import habitarc.shared.vm.Vm
 
 class CalendarVm : Vm<CalendarVm.State>() {
 

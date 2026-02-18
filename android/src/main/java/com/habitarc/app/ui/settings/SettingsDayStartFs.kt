@@ -13,7 +13,7 @@ import com.habitarc.app.ui.header.Header
 import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.vm.settings.SettingsVm
+import habitarc.shared.vm.settings.SettingsVm
 
 @Composable
 fun SettingsDayStartFs(

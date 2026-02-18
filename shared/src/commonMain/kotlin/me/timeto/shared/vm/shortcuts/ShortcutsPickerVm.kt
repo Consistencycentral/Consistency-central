@@ -1,10 +1,10 @@
-package me.timeto.shared.vm.shortcuts
+package habitarc.shared.vm.shortcuts
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.onEachExIn
+import habitarc.shared.vm.Vm
 
 class ShortcutsPickerVm(
     initShortcutsDb: List<ShortcutDb>,

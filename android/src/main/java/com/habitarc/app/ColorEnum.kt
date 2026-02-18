@@ -2,7 +2,7 @@ package com.habitarc.app
 
 import androidx.compose.ui.graphics.Color
 import com.habitarc.app.ui.c
-import me.timeto.shared.ColorEnum
+import habitarc.shared.ColorEnum
 
 fun ColorEnum.toColor(): Color = when (this) {
 

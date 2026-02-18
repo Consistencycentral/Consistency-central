@@ -19,8 +19,8 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.navigation.LocalNavigationFs
-import me.timeto.shared.vm.events.templates.EventTemplateUi
-import me.timeto.shared.vm.events.templates.EventTemplatesVm
+import habitarc.shared.vm.events.templates.EventTemplateUi
+import habitarc.shared.vm.events.templates.EventTemplatesVm
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

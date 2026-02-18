@@ -25,7 +25,7 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.vm.goals.form.GoalFormTimerHintsVm
+import habitarc.shared.vm.goals.form.GoalFormTimerHintsVm
 
 @Composable
 fun GoalFormTimerHintsFs(

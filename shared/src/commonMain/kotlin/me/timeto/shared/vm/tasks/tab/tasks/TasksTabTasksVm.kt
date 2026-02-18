@@ -1,25 +1,25 @@
-package me.timeto.shared.vm.tasks.tab.tasks
+package habitarc.shared.vm.tasks.tab.tasks
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.EventDb
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.db.TaskFolderDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.ColorEnum
-import me.timeto.shared.DayStartOffsetUtils
-import me.timeto.shared.TaskUi
-import me.timeto.shared.TimeFlows
-import me.timeto.shared.sortedUi
-import me.timeto.shared.textFeatures
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.DaytimeUi
+import habitarc.shared.TextFeatures
+import habitarc.shared.UnixTime
+import habitarc.shared.db.EventDb
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.db.TaskDb
+import habitarc.shared.db.TaskFolderDb
+import habitarc.shared.launchExIo
+import habitarc.shared.ColorEnum
+import habitarc.shared.DayStartOffsetUtils
+import habitarc.shared.TaskUi
+import habitarc.shared.TimeFlows
+import habitarc.shared.sortedUi
+import habitarc.shared.textFeatures
+import habitarc.shared.vm.Vm
 
 class TasksTabTasksVm(
     val taskFolderDb: TaskFolderDb,

@@ -21,7 +21,7 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.TriggersIconsView
 import com.habitarc.app.ui.events.EventFormFs
 import com.habitarc.app.ui.navigation.LocalNavigationFs
-import me.timeto.shared.vm.calendar.CalendarListVm
+import habitarc.shared.vm.calendar.CalendarListVm
 
 @Composable
 fun CalendarListItemView(

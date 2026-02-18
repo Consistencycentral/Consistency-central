@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 fun Boolean.toInt10(): Int =
     if (this) 1 else 0

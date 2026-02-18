@@ -1,16 +1,16 @@
-package me.timeto.shared.vm.home.buttons
+package habitarc.shared.vm.home.buttons
 
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.DayBarsUi
-import me.timeto.shared.HomeButtonSort
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.launchExIo
-import me.timeto.shared.limitMax
-import me.timeto.shared.textFeatures
-import me.timeto.shared.timeMls
-import me.timeto.shared.toHms
-import me.timeto.shared.toTimerHintNote
+import habitarc.shared.ColorRgba
+import habitarc.shared.DayBarsUi
+import habitarc.shared.HomeButtonSort
+import habitarc.shared.TextFeatures
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.launchExIo
+import habitarc.shared.limitMax
+import habitarc.shared.textFeatures
+import habitarc.shared.timeMls
+import habitarc.shared.toHms
+import habitarc.shared.toTimerHintNote
 import kotlin.math.absoluteValue
 
 sealed class HomeButtonType {

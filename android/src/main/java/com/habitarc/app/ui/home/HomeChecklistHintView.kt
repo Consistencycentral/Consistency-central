@@ -21,7 +21,7 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.checklists.form.ChecklistFormItemsFs
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.vm.home.HomeVm
+import habitarc.shared.vm.home.HomeVm
 
 @Composable
 fun HomeChecklistHintView(

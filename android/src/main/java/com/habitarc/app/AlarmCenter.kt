@@ -7,8 +7,8 @@ import android.content.Intent
 import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_BREAK
 import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_NO_ACTIVITY_START
 import com.habitarc.app.NotificationsUtils.NOTIFICATION_ID_OVERDUE
-import me.timeto.shared.NotificationAlarm
-import me.timeto.shared.timeMls
+import habitarc.shared.NotificationAlarm
+import habitarc.shared.timeMls
 
 object AlarmCenter {
 

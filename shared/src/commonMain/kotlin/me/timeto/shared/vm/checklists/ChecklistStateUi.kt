@@ -1,8 +1,8 @@
-package me.timeto.shared.vm.checklists
+package habitarc.shared.vm.checklists
 
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.ChecklistItemDb
-import me.timeto.shared.launchExIo
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.ChecklistItemDb
+import habitarc.shared.launchExIo
 
 sealed class ChecklistStateUi(
     val actionDesc: String,

@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.cinterop.UnsafeNumber
 import kotlinx.coroutines.delay
@@ -8,9 +8,9 @@ import platform.Foundation.NSUTF8StringEncoding
 import platform.Foundation.create
 import platform.Foundation.dataUsingEncoding
 import platform.WatchConnectivity.WCSession
-import me.timeto.shared.db.*
-import me.timeto.shared.backups.Backupable__Holder
-import me.timeto.shared.backups.Backupable__Item
+import habitarc.shared.db.*
+import habitarc.shared.backups.Backupable__Holder
+import habitarc.shared.backups.Backupable__Item
 
 /**
  * I use application context for backup because of limits:

@@ -1,6 +1,6 @@
-package me.timeto.shared
+package habitarc.shared
 
-import me.timeto.shared.db.Goal2Db
+import habitarc.shared.db.Goal2Db
 
 data class DaytimeUi(
     val hour: Int,

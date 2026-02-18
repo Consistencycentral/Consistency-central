@@ -1,16 +1,16 @@
-package me.timeto.shared.vm.summary
+package habitarc.shared.vm.summary
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.launchEx
-import me.timeto.shared.localUtcOffset
-import me.timeto.shared.DayBarsUi
-import me.timeto.shared.textFeatures
-import me.timeto.shared.toHms
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.UnixTime
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.launchEx
+import habitarc.shared.localUtcOffset
+import habitarc.shared.DayBarsUi
+import habitarc.shared.textFeatures
+import habitarc.shared.toHms
+import habitarc.shared.vm.Vm
 
 class SummaryVm : Vm<SummaryVm.State>() {
 

@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 fun Float.limitMin(value: Float): Float =
     if (this < value) value else this

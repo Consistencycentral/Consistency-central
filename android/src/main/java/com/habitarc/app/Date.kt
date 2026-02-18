@@ -1,6 +1,6 @@
 package com.habitarc.app
 
-import me.timeto.shared.UnixTime
+import habitarc.shared.UnixTime
 import java.util.Date
 
 fun Date.toUnixTime() =

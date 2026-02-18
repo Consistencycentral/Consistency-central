@@ -27,7 +27,7 @@ import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.Divider
 import com.habitarc.app.ui.SpacerW1
 import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
-import me.timeto.shared.vm.calendar.CalendarVm
+import habitarc.shared.vm.calendar.CalendarVm
 
 @Composable
 fun CalendarView(

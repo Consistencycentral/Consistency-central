@@ -23,9 +23,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.vm.tasks.TaskTimerVm
+import habitarc.shared.DaytimeUi
+import habitarc.shared.db.TaskDb
+import habitarc.shared.vm.tasks.TaskTimerVm
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

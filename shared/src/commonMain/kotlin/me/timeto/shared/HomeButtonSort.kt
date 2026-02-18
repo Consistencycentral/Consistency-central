@@ -1,8 +1,8 @@
-package me.timeto.shared
+package habitarc.shared
 
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.dbIo
-import me.timeto.shared.vm.home.buttons.homeButtonsCellsCount
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.dbIo
+import habitarc.shared.vm.home.buttons.homeButtonsCellsCount
 
 data class HomeButtonSort(
     val rowIdx: Int,

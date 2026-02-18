@@ -41,8 +41,8 @@ import com.habitarc.app.ui.onePx
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.tasks.tab.repeatings.TasksTabRepeatingsView
-import me.timeto.shared.db.TaskFolderDb
-import me.timeto.shared.vm.tasks.tab.TasksTabVm
+import habitarc.shared.db.TaskFolderDb
+import habitarc.shared.vm.tasks.tab.TasksTabVm
 import kotlin.random.Random
 
 val TasksTabView__TAB_BUTTON_WIDTH: Dp = 32.dp

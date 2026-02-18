@@ -2,8 +2,8 @@ package com.habitarc.app.ui
 
 import androidx.compose.ui.graphics.Color
 import com.habitarc.app.toColor
-import me.timeto.shared.Palette
-import me.timeto.shared.vm.main.MainTabsVm
+import habitarc.shared.Palette
+import habitarc.shared.vm.main.MainTabsVm
 
 /**
  * https://sarunw.com/posts/dark-color-cheat-sheet

@@ -32,7 +32,7 @@ import com.habitarc.app.ui.home.buttons.HomeButtonsView
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.privacy.PrivacyFs
 import com.habitarc.app.ui.whats_new.WhatsNewFs
-import me.timeto.shared.vm.home.HomeVm
+import habitarc.shared.vm.home.HomeVm
 
 val HomeScreen__primaryFontSize = 16.sp
 

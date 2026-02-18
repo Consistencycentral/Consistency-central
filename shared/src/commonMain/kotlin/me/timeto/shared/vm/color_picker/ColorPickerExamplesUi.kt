@@ -1,4 +1,4 @@
-package me.timeto.shared.vm.color_picker
+package habitarc.shared.vm.color_picker
 
 data class ColorPickerExamplesUi(
     val mainExampleUi: ColorPickerExampleUi,

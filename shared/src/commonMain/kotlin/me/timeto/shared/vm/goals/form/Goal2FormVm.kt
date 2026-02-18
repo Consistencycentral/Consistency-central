@@ -1,21 +1,21 @@
-package me.timeto.shared.vm.goals.form
+package habitarc.shared.vm.goals.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.textFeatures
-import me.timeto.shared.toHms
-import me.timeto.shared.toTimerHintNote
-import me.timeto.shared.vm.Vm
-import me.timeto.shared.vm.color_picker.ColorPickerExampleUi
-import me.timeto.shared.vm.color_picker.ColorPickerExamplesUi
+import habitarc.shared.Cache
+import habitarc.shared.ColorRgba
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.launchExIo
+import habitarc.shared.textFeatures
+import habitarc.shared.toHms
+import habitarc.shared.toTimerHintNote
+import habitarc.shared.vm.Vm
+import habitarc.shared.vm.color_picker.ColorPickerExampleUi
+import habitarc.shared.vm.color_picker.ColorPickerExamplesUi
 
 class Goal2FormVm(
     initGoalDb: Goal2Db?,

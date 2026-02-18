@@ -41,8 +41,8 @@ import com.habitarc.app.ui.daytime_picker.DaytimePickerSheet
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.readme.ReadmeFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.vm.home.HomeVm
-import me.timeto.shared.vm.readme.ReadmeVm
+import habitarc.shared.vm.home.HomeVm
+import habitarc.shared.vm.readme.ReadmeVm
 
 @Composable
 fun HomeTimerView(

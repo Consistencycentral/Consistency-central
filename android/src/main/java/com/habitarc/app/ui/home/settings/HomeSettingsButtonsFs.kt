@@ -65,9 +65,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.pxToDp
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.vm.home.settings.buttons.HomeSettingsButtonType
-import me.timeto.shared.vm.home.settings.buttons.HomeSettingsButtonUi
-import me.timeto.shared.vm.home.settings.buttons.HomeSettingsButtonsVm
+import habitarc.shared.vm.home.settings.buttons.HomeSettingsButtonType
+import habitarc.shared.vm.home.settings.buttons.HomeSettingsButtonUi
+import habitarc.shared.vm.home.settings.buttons.HomeSettingsButtonsVm
 import kotlin.math.roundToInt
 
 private val rowHeight: Dp = HomeScreen__itemHeight

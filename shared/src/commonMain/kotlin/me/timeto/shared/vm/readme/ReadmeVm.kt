@@ -1,8 +1,8 @@
-package me.timeto.shared.vm.readme
+package habitarc.shared.vm.readme
 
 import kotlinx.coroutines.flow.*
-import me.timeto.shared.db.KvDb
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.KvDb
+import habitarc.shared.vm.Vm
 
 class ReadmeVm(
     defaultItem: DefaultItem,

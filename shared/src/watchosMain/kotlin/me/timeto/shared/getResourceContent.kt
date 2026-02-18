@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 actual fun getResourceContent(file: String, type: String): String {
     TODO("WatchOS getResourceContent() not implemented")

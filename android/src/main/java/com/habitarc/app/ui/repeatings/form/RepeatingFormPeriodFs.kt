@@ -49,8 +49,8 @@ import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.vm.repeatings.form.RepeatingFormPeriodVm
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.vm.repeatings.form.RepeatingFormPeriodVm
 
 private val daysOfMonthItemViewItemSize = 36.dp
 

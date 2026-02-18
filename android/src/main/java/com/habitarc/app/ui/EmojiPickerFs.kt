@@ -46,7 +46,7 @@ import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.Screen
 import com.habitarc.app.ui.header.views.HeaderView
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.vm.emoji.EmojiPickerVm
+import habitarc.shared.vm.emoji.EmojiPickerVm
 
 @Composable
 fun EmojiPickerFs(

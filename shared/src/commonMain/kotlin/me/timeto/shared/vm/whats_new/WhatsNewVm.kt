@@ -1,11 +1,11 @@
-package me.timeto.shared.vm.whats_new
+package habitarc.shared.vm.whats_new
 
 import kotlinx.coroutines.flow.MutableStateFlow
-import me.timeto.shared.SystemInfo
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.KvDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.vm.Vm
+import habitarc.shared.SystemInfo
+import habitarc.shared.UnixTime
+import habitarc.shared.db.KvDb
+import habitarc.shared.launchExIo
+import habitarc.shared.vm.Vm
 
 class WhatsNewVm : Vm<WhatsNewVm.State>() {
 

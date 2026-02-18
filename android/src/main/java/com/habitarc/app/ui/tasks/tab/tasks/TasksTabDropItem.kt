@@ -2,7 +2,7 @@ package com.habitarc.app.ui.tasks.tab
 
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.positionInWindow
-import me.timeto.shared.db.TaskFolderDb
+import habitarc.shared.db.TaskFolderDb
 
 sealed class TasksTabDropItem(
     val name: String,

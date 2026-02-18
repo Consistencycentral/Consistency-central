@@ -10,7 +10,7 @@ import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
 import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
-import me.timeto.shared.vm.calendar.CalendarListVm
+import habitarc.shared.vm.calendar.CalendarListVm
 
 @Composable
 fun CalendarListView(

@@ -35,7 +35,7 @@ import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.toColor
 import com.habitarc.app.ui.history.form.HistoryFormFs
 import com.habitarc.app.ui.navigation.LocalNavigationFs
-import me.timeto.shared.vm.history.HistoryVm
+import habitarc.shared.vm.history.HistoryVm
 
 private const val barPxSecondsRatio: Int = 60
 

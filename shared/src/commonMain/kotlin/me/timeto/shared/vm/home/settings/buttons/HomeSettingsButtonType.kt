@@ -1,7 +1,7 @@
-package me.timeto.shared.vm.home.settings.buttons
+package habitarc.shared.vm.home.settings.buttons
 
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.textFeatures
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.textFeatures
 
 sealed class HomeSettingsButtonType {
 

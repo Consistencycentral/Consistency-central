@@ -1,6 +1,6 @@
-package me.timeto.shared.vm.color_picker
+package habitarc.shared.vm.color_picker
 
-import me.timeto.shared.ColorRgba
+import habitarc.shared.ColorRgba
 
 data class ColorPickerExampleUi(
     val title: String,

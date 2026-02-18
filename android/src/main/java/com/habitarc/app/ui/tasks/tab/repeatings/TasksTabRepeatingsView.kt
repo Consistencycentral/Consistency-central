@@ -23,7 +23,7 @@ import com.habitarc.app.ui.repeatings.form.RepeatingFormFs
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
 import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
-import me.timeto.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
+import habitarc.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
 
 @Composable
 fun TasksTabRepeatingsView() {

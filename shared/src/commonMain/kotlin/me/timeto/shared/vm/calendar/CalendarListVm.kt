@@ -1,14 +1,14 @@
-package me.timeto.shared.vm.calendar
+package habitarc.shared.vm.calendar
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.EventDb
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.textFeatures
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.TextFeatures
+import habitarc.shared.UnixTime
+import habitarc.shared.db.EventDb
+import habitarc.shared.onEachExIn
+import habitarc.shared.textFeatures
+import habitarc.shared.vm.Vm
 
 class CalendarListVm : Vm<CalendarListVm.State>() {
 

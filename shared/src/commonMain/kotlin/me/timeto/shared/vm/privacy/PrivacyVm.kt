@@ -1,14 +1,14 @@
-package me.timeto.shared.vm.privacy
+package habitarc.shared.vm.privacy
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.db.KvDb
-import me.timeto.shared.db.KvDb.Companion.isSendingReports
-import me.timeto.shared.launchExIo
-import me.timeto.shared.SystemInfo
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.prayEmoji
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.KvDb
+import habitarc.shared.db.KvDb.Companion.isSendingReports
+import habitarc.shared.launchExIo
+import habitarc.shared.SystemInfo
+import habitarc.shared.onEachExIn
+import habitarc.shared.prayEmoji
+import habitarc.shared.vm.Vm
 
 class PrivacyVm : Vm<PrivacyVm.State>() {
 

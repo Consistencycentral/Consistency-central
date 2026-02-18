@@ -1,10 +1,10 @@
-package me.timeto.shared.vm.summary
+package habitarc.shared.vm.summary
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.UnixTime
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.UnixTime
+import habitarc.shared.vm.Vm
 
 class SummaryCalendarVm(
     selectedStartTime: UnixTime,

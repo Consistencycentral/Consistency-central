@@ -1,7 +1,7 @@
-package me.timeto.shared.vm.tasks.form
+package habitarc.shared.vm.tasks.form
 
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.db.TaskFolderDb
+import habitarc.shared.db.TaskDb
+import habitarc.shared.db.TaskFolderDb
 
 sealed class TaskFormStrategy {
 

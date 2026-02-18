@@ -1,10 +1,10 @@
-package me.timeto.shared
+package habitarc.shared
 
 import android.app.Application
 import android.os.Build
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import com.habitarc.appdbsq.TimetomeDB
-import me.timeto.shared.db.DB_NAME
+import habitarc.shared.db.DB_NAME
 
 fun initKmpAndroid(
     application: Application,

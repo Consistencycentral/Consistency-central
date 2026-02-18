@@ -1,10 +1,10 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
-import me.timeto.shared.db.KvDb
-import me.timeto.shared.db.KvDb.Companion.asDayStartOffsetSeconds
+import habitarc.shared.db.KvDb
+import habitarc.shared.db.KvDb.Companion.asDayStartOffsetSeconds
 
 object DayStartOffsetUtils {
 

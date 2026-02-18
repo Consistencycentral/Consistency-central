@@ -6,7 +6,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.mutableStateOf
 import kotlinx.coroutines.delay
-import me.timeto.shared.launchExIo
+import habitarc.shared.launchExIo
 
 val LocalNavigationLayer = compositionLocalOf<NavigationLayer> {
     throw Exception("LocalNavigationLayer")

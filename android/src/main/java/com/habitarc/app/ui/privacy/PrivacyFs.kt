@@ -26,7 +26,7 @@ import com.habitarc.app.ui.form.FormSwitch
 import com.habitarc.app.ui.header.Header
 import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.vm.privacy.PrivacyVm
+import habitarc.shared.vm.privacy.PrivacyVm
 
 @Composable
 fun PrivacyFs(

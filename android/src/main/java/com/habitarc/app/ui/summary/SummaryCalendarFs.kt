@@ -28,8 +28,8 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.UnixTime
-import me.timeto.shared.vm.summary.SummaryCalendarVm
+import habitarc.shared.UnixTime
+import habitarc.shared.vm.summary.SummaryCalendarVm
 
 @Composable
 fun SummaryCalendarFs(

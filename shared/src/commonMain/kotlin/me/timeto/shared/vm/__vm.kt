@@ -1,8 +1,8 @@
-package me.timeto.shared.vm
+package habitarc.shared.vm
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.StateFlow
-import me.timeto.shared.ioScope
+import habitarc.shared.ioScope
 
 abstract class Vm<T> {
 

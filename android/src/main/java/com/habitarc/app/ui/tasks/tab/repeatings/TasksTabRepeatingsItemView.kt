@@ -27,7 +27,7 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.repeatings.form.RepeatingFormFs
 import com.habitarc.app.ui.squircleShape
-import me.timeto.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
+import habitarc.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
 
 @Composable
 fun TasksTabRepeatingsItemView(

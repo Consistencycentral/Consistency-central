@@ -1,15 +1,15 @@
-package me.timeto.shared.vm.checklists.form
+package habitarc.shared.vm.checklists.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.ChecklistItemDb
-import me.timeto.shared.launchEx
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.textFeatures
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.ChecklistItemDb
+import habitarc.shared.launchEx
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.textFeatures
+import habitarc.shared.vm.Vm
 
 class ChecklistFormItemVm(
     checklistDb: ChecklistDb,

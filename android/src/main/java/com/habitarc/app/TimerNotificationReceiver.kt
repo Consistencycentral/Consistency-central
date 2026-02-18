@@ -7,8 +7,8 @@ import android.content.Intent
 import androidx.core.app.NotificationCompat
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
-import me.timeto.shared.launchExIo
-import me.timeto.shared.reportApi
+import habitarc.shared.launchExIo
+import habitarc.shared.reportApi
 
 class TimerNotificationReceiver : BroadcastReceiver() {
 

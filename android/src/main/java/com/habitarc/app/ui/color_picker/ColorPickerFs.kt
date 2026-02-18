@@ -49,9 +49,9 @@ import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.vm.color_picker.ColorPickerExamplesUi
-import me.timeto.shared.vm.color_picker.ColorPickerVm
+import habitarc.shared.ColorRgba
+import habitarc.shared.vm.color_picker.ColorPickerExamplesUi
+import habitarc.shared.vm.color_picker.ColorPickerVm
 
 private val circleSize = 40.dp
 private val circlePadding = 4.dp

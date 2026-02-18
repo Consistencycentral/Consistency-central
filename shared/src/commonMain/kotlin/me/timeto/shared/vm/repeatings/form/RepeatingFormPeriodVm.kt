@@ -1,12 +1,12 @@
-package me.timeto.shared.vm.repeatings.form
+package habitarc.shared.vm.repeatings.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.vm.Vm
+import habitarc.shared.UnixTime
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.vm.Vm
 
 class RepeatingFormPeriodVm(
     initPeriod: RepeatingDb.Period?,

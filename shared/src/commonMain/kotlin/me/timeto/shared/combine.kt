@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine

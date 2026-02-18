@@ -1,12 +1,12 @@
-package me.timeto.shared.vm.notes
+package habitarc.shared.vm.notes
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.db.NoteDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.NoteDb
+import habitarc.shared.launchExIo
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.vm.Vm
 
 class NoteFormVm(
     noteDb: NoteDb?,

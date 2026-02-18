@@ -26,8 +26,8 @@ import com.habitarc.app.ui.WyouChart
 import com.habitarc.app.ui.c
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
-import me.timeto.shared.vm.summary.SummaryVm
-import me.timeto.shared.vm.summary.SummaryChartVm
+import habitarc.shared.vm.summary.SummaryVm
+import habitarc.shared.vm.summary.SummaryChartVm
 
 @Composable
 fun SummaryChartView(

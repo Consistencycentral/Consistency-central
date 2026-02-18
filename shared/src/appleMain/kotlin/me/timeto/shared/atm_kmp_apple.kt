@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 import app.cash.sqldelight.db.QueryResult
 import app.cash.sqldelight.db.SqlSchema

@@ -38,8 +38,8 @@ import com.habitarc.app.ui.navigation.Navigation
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.squircleShape
-import me.timeto.shared.vm.readme.ReadmeVm
-import me.timeto.shared.vm.readme.ReadmeVm.DefaultItem
+import habitarc.shared.vm.readme.ReadmeVm
+import habitarc.shared.vm.readme.ReadmeVm.DefaultItem
 
 private val imagesHBetween = 4.dp
 private val imagesHBlock = H_PADDING - imagesHBetween

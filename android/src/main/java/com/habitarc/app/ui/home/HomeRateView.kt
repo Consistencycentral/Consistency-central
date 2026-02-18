@@ -21,7 +21,7 @@ import com.habitarc.app.ui.SquircleShape
 import com.habitarc.app.ui.VStack
 import com.habitarc.app.ui.c
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.vm.home.HomeVm
+import habitarc.shared.vm.home.HomeVm
 import com.habitarc.app.openGooglePlayAppPage
 
 private val shape = SquircleShape(12.dp)

@@ -19,8 +19,8 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.checklists.ChecklistScreen
 import com.habitarc.app.ui.navigation.LocalNavigationFs
-import me.timeto.shared.vm.home.HomeVm
-import me.timeto.shared.performUi
+import habitarc.shared.vm.home.HomeVm
+import habitarc.shared.performUi
 
 @Composable
 fun HomeExtraTriggersView(

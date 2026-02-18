@@ -1,4 +1,4 @@
-package me.timeto.shared.db
+package habitarc.shared.db
 
 import app.cash.sqldelight.coroutines.asFlow
 import app.cash.sqldelight.coroutines.mapToOneOrNull
@@ -9,14 +9,14 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.jsonArray
-import me.timeto.shared.*
-import me.timeto.shared.SystemInfo
-import me.timeto.shared.backups.Backupable__Holder
-import me.timeto.shared.backups.Backupable__Item
-import me.timeto.shared.getString
-import me.timeto.shared.time
-import me.timeto.shared.toBoolean10
-import me.timeto.shared.toJsonArray
+import habitarc.shared.*
+import habitarc.shared.SystemInfo
+import habitarc.shared.backups.Backupable__Holder
+import habitarc.shared.backups.Backupable__Item
+import habitarc.shared.getString
+import habitarc.shared.time
+import habitarc.shared.toBoolean10
+import habitarc.shared.toJsonArray
 
 data class KvDb(
     val key: String,

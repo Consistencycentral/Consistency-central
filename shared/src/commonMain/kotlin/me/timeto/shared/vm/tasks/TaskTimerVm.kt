@@ -1,15 +1,15 @@
-package me.timeto.shared.vm.tasks
+package habitarc.shared.vm.tasks
 
 import kotlinx.coroutines.flow.MutableStateFlow
-import me.timeto.shared.Cache
-import me.timeto.shared.DayBarsUi
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.textFeatures
-import me.timeto.shared.toTimerHintNote
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.DayBarsUi
+import habitarc.shared.DaytimeUi
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.TaskDb
+import habitarc.shared.launchExIo
+import habitarc.shared.textFeatures
+import habitarc.shared.toTimerHintNote
+import habitarc.shared.vm.Vm
 
 class TaskTimerVm(
     taskDb: TaskDb,

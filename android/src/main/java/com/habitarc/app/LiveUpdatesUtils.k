@@ -4,8 +4,8 @@ import android.app.PendingIntent
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import me.timeto.shared.LiveActivity
-import me.timeto.shared.time
+import habitarc.shared.LiveActivity
+import habitarc.shared.time
 
 /**
  * https://developer.android.com/develop/ui/views/notifications/live-update

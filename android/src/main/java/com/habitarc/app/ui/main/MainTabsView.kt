@@ -39,7 +39,7 @@ import com.habitarc.app.ui.onePx
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.timerFont
-import me.timeto.shared.vm.main.MainTabsVm
+import habitarc.shared.vm.main.MainTabsVm
 
 val MainTabsView__height = 56.dp
 val MainTabsView__backgroundColor = Color(18, 18, 19)

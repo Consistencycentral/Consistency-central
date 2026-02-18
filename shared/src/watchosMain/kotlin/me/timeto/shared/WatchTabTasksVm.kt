@@ -1,12 +1,12 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.db.TaskFolderDb
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.TextFeatures.TimeData
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.TaskFolderDb
+import habitarc.shared.db.TaskDb
+import habitarc.shared.TextFeatures.TimeData
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.Vm
 
 class WatchTabTasksVm : Vm<WatchTabTasksVm.State>() {
 

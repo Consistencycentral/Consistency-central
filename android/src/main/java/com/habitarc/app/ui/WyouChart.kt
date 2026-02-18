@@ -22,8 +22,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.habitarc.app.toColor
-import me.timeto.shared.limitMax
-import me.timeto.shared.PieChart
+import habitarc.shared.limitMax
+import habitarc.shared.PieChart
 import java.lang.Math.PI
 
 object WyouChart {

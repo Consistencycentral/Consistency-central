@@ -1,8 +1,8 @@
-package me.timeto.shared.vm.events.templates
+package habitarc.shared.vm.events.templates
 
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.EventTemplateDb
-import me.timeto.shared.textFeatures
+import habitarc.shared.UnixTime
+import habitarc.shared.db.EventTemplateDb
+import habitarc.shared.textFeatures
 
 data class EventTemplateUi(
     val eventTemplateDb: EventTemplateDb,

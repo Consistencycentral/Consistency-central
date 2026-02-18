@@ -1,12 +1,12 @@
-package me.timeto.shared.vm.goals.form
+package habitarc.shared.vm.goals.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.UnixTime
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.Vm
+import habitarc.shared.UnixTime
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.Vm
 
 class GoalFormPeriodVm(
     initGoalDbPeriod: Goal2Db.Period,

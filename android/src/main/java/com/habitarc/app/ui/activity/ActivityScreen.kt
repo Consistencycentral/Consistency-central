@@ -30,7 +30,7 @@ import com.habitarc.app.ui.summary.SummaryFs
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.ui.summary.SummaryCalendarFs
-import me.timeto.shared.vm.summary.SummaryVm
+import habitarc.shared.vm.summary.SummaryVm
 
 @Composable
 fun ActivityScreen(

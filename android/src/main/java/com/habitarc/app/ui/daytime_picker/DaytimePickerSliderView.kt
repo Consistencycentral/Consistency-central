@@ -31,8 +31,8 @@ import com.habitarc.app.ui.c
 import com.habitarc.app.ui.onePx
 import com.habitarc.app.ui.pxToDp
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.DaytimePickerSliderUi
+import habitarc.shared.DaytimeUi
+import habitarc.shared.DaytimePickerSliderUi
 
 private val hPadding = H_PADDING + 1.dp
 

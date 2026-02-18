@@ -10,7 +10,7 @@ import androidx.compose.ui.viewinterop.AndroidView
 import com.habitarc.app.toUnixTime
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.Navigation
-import me.timeto.shared.UnixTime
+import habitarc.shared.UnixTime
 import java.text.SimpleDateFormat
 import java.util.*
 

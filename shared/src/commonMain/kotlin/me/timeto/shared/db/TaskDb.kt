@@ -1,22 +1,22 @@
-package me.timeto.shared.db
+package habitarc.shared.db
 
 import app.cash.sqldelight.coroutines.asFlow
 import dbsq.TaskSQ
 import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.jsonArray
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.TimerTimeParser
-import me.timeto.shared.launchExIo
-import me.timeto.shared.backups.Backupable__Holder
-import me.timeto.shared.backups.Backupable__Item
-import me.timeto.shared.getInt
-import me.timeto.shared.getString
-import me.timeto.shared.time
-import me.timeto.shared.toJsonArray
-import me.timeto.shared.textFeatures
-import me.timeto.shared.UiException
-import me.timeto.shared.TaskUi
+import habitarc.shared.TextFeatures
+import habitarc.shared.TimerTimeParser
+import habitarc.shared.launchExIo
+import habitarc.shared.backups.Backupable__Holder
+import habitarc.shared.backups.Backupable__Item
+import habitarc.shared.getInt
+import habitarc.shared.getString
+import habitarc.shared.time
+import habitarc.shared.toJsonArray
+import habitarc.shared.textFeatures
+import habitarc.shared.UiException
+import habitarc.shared.TaskUi
 import kotlin.math.max
 
 data class TaskDb(

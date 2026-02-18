@@ -1,4 +1,4 @@
-package me.timeto.shared.db
+package habitarc.shared.db
 
 import app.cash.sqldelight.Query
 import app.cash.sqldelight.coroutines.asFlow

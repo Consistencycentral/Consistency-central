@@ -1,11 +1,11 @@
-package me.timeto.shared
+package habitarc.shared
 
 import io.ktor.client.HttpClient
 import io.ktor.client.request.forms.submitForm
 import io.ktor.http.Parameters
 import kotlinx.coroutines.launch
-import me.timeto.shared.db.KvDb
-import me.timeto.shared.db.KvDb.Companion.isSendingReports
+import habitarc.shared.db.KvDb
+import habitarc.shared.db.KvDb.Companion.isSendingReports
 
 fun reportApi(
     message: String,

@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 /**
  * Based on https://developer.apple.com/design/human-interface-guidelines/color

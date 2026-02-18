@@ -64,10 +64,10 @@ import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.shortcuts.ShortcutFormFs
 import com.habitarc.app.ui.tasks.folders.TaskFoldersFormFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.*
-import me.timeto.shared.backups.Backup
-import me.timeto.shared.vm.settings.SettingsVm
-import me.timeto.shared.performUi
+import habitarc.shared.*
+import habitarc.shared.backups.Backup
+import habitarc.shared.vm.settings.SettingsVm
+import habitarc.shared.performUi
 import java.io.BufferedReader
 import java.io.InputStreamReader
 

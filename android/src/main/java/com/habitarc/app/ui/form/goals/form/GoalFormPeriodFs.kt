@@ -13,8 +13,8 @@ import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.goals.form.GoalFormPeriodVm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.goals.form.GoalFormPeriodVm
 
 @Composable
 fun GoalFormPeriodFs(

@@ -6,8 +6,8 @@ import android.app.NotificationManager
 import android.content.Context
 import android.media.AudioAttributes
 import android.net.Uri
-import me.timeto.shared.NotificationAlarm
-import me.timeto.shared.getSoundTimerExpiredFileName
+import habitarc.shared.NotificationAlarm
+import habitarc.shared.getSoundTimerExpiredFileName
 
 /**
  * WARNING

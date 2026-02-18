@@ -53,9 +53,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.shortcuts.ShortcutsPickerFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.tasks.form.TaskFormStrategy
-import me.timeto.shared.vm.tasks.form.TaskFormVm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.tasks.form.TaskFormStrategy
+import habitarc.shared.vm.tasks.form.TaskFormVm
 
 @Composable
 fun TaskFormFs(

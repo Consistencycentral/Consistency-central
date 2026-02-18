@@ -26,9 +26,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.shortcuts.ShortcutsPickerFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.vm.repeatings.form.RepeatingFormVm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.vm.repeatings.form.RepeatingFormVm
 
 @Composable
 fun RepeatingFormFs(

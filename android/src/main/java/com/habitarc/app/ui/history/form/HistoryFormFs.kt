@@ -31,10 +31,10 @@ import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.vm.history.form.HistoryFormUtils
-import me.timeto.shared.vm.history.form.HistoryFormVm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.vm.history.form.HistoryFormUtils
+import habitarc.shared.vm.history.form.HistoryFormVm
 
 @Composable
 fun HistoryFormFs(

@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 data class ColorRgba(
     val r: Int, val g: Int,

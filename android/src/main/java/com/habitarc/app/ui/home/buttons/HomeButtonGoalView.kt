@@ -38,8 +38,8 @@ import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.vm.home.buttons.HomeButtonType
+import habitarc.shared.DaytimeUi
+import habitarc.shared.vm.home.buttons.HomeButtonType
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

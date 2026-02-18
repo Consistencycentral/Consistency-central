@@ -23,7 +23,7 @@ import com.habitarc.app.ui.VStack
 import com.habitarc.app.ui.ZStack
 import com.habitarc.app.ui.c
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.vm.summary.SummaryVm
+import habitarc.shared.vm.summary.SummaryVm
 
 private val barsHeaderHeight = 35.dp
 private val hPadding = 8.dp

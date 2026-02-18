@@ -24,8 +24,8 @@ import com.habitarc.app.MainActivity
 import com.habitarc.app.R
 import com.habitarc.app.openNotificationSettings
 import com.habitarc.app.ui.*
-import me.timeto.shared.reportApi
-import me.timeto.shared.vm.home.HomeVm.NotificationsPermissionUi
+import habitarc.shared.reportApi
+import habitarc.shared.vm.home.HomeVm.NotificationsPermissionUi
 
 @Composable
 @RequiresApi(Build.VERSION_CODES.TIRAMISU)

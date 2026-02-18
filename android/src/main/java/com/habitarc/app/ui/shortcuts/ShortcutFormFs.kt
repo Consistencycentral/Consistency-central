@@ -39,8 +39,8 @@ import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.shortcuts.apps.ShortcutAppsFs
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.vm.shortcuts.ShortcutFormVm
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.vm.shortcuts.ShortcutFormVm
 
 @Composable
 fun ShortcutFormFs(

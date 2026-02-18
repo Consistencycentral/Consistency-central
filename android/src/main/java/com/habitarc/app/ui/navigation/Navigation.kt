@@ -12,7 +12,7 @@ import com.habitarc.app.ui.H_PADDING
 import com.habitarc.app.ui.c
 import com.habitarc.app.ui.navigation.picker.NavigationPicker
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
-import me.timeto.shared.DialogsManager
+import habitarc.shared.DialogsManager
 
 class Navigation : DialogsManager {
 

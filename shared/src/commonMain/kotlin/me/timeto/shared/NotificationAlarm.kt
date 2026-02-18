@@ -1,7 +1,7 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.MutableSharedFlow
-import me.timeto.shared.db.IntervalDb
+import habitarc.shared.db.IntervalDb
 
 data class NotificationAlarm(
     val title: String,

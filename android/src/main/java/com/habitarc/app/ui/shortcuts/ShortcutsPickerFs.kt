@@ -13,8 +13,8 @@ import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.vm.shortcuts.ShortcutsPickerVm
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.vm.shortcuts.ShortcutsPickerVm
 
 // todo context menu
 // todo new shortcut button

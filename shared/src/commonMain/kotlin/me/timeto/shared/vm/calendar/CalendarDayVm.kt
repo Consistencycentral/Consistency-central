@@ -1,15 +1,15 @@
-package me.timeto.shared.vm.calendar
+package habitarc.shared.vm.calendar
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.EventDb
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.vm.Vm
-import me.timeto.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
+import habitarc.shared.Cache
+import habitarc.shared.UnixTime
+import habitarc.shared.db.EventDb
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.vm.Vm
+import habitarc.shared.vm.tasks.tab.repeatings.TasksTabRepeatingsVm
 
 class CalendarDayVm(
     private val unixDay: Int,

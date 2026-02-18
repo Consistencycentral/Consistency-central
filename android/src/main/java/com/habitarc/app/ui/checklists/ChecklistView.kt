@@ -37,9 +37,9 @@ import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.picker.NavigationPickerItem
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.vm.checklists.ChecklistVm
-import me.timeto.shared.vm.checklists.ChecklistStateUi
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.vm.checklists.ChecklistVm
+import habitarc.shared.vm.checklists.ChecklistStateUi
 
 private val checklistItemMinHeight = HomeScreen__itemHeight
 private val itemFontSize: TextUnit = HomeScreen__primaryFontSize

@@ -1,10 +1,10 @@
-package me.timeto.shared.vm.summary
+package habitarc.shared.vm.summary
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.PieChart
-import me.timeto.shared.launchEx
-import me.timeto.shared.vm.Vm
+import habitarc.shared.PieChart
+import habitarc.shared.launchEx
+import habitarc.shared.vm.Vm
 
 class SummaryChartVm(
     activitiesUi: List<SummaryVm.GoalUi>,

@@ -1,9 +1,9 @@
-package me.timeto.shared.vm.color_picker
+package habitarc.shared.vm.color_picker
 
 import kotlinx.coroutines.flow.*
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.Palette
-import me.timeto.shared.vm.Vm
+import habitarc.shared.ColorRgba
+import habitarc.shared.Palette
+import habitarc.shared.vm.Vm
 
 class ColorPickerVm(
     examplesUi: ColorPickerExamplesUi,

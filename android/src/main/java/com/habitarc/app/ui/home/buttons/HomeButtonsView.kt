@@ -15,8 +15,8 @@ import com.habitarc.app.ui.ZStack
 import com.habitarc.app.ui.home.HomeScreen__hPadding
 import com.habitarc.app.ui.home.HomeScreen__itemHeight
 import com.habitarc.app.ui.rememberVm
-import me.timeto.shared.vm.home.buttons.HomeButtonType
-import me.timeto.shared.vm.home.buttons.HomeButtonsVm
+import habitarc.shared.vm.home.buttons.HomeButtonType
+import habitarc.shared.vm.home.buttons.HomeButtonsVm
 
 private val rowHeight: Dp = HomeScreen__itemHeight
 private val spacing: Dp = 8.dp

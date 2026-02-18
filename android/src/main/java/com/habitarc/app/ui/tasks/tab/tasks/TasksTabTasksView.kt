@@ -38,11 +38,11 @@ import com.habitarc.app.ui.tasks.tab.TasksTabDragItem
 import com.habitarc.app.ui.tasks.tab.TasksTabDropItem
 import com.habitarc.app.ui.tasks.tab.TasksTabView__LIST_SECTION_PADDING
 import com.habitarc.app.ui.tasks.tab.TasksTabView__PADDING_END
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.db.TaskFolderDb
-import me.timeto.shared.launchEx
-import me.timeto.shared.vm.tasks.form.TaskFormStrategy
-import me.timeto.shared.vm.tasks.tab.tasks.TasksTabTasksVm
+import habitarc.shared.TextFeatures
+import habitarc.shared.db.TaskFolderDb
+import habitarc.shared.launchEx
+import habitarc.shared.vm.tasks.form.TaskFormStrategy
+import habitarc.shared.vm.tasks.tab.tasks.TasksTabTasksVm
 
 private val inputShape = SquircleShape(16.dp)
 private val highlightTimeShape = SquircleShape(8.dp)

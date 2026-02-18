@@ -19,8 +19,8 @@ import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.db.NoteDb
-import me.timeto.shared.vm.notes.NoteFormVm
+import habitarc.shared.db.NoteDb
+import habitarc.shared.vm.notes.NoteFormVm
 
 @Composable
 fun NoteFormFs(

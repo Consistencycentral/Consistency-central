@@ -27,8 +27,8 @@ import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.readme.ReadmeFs
 import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.squircleShape
-import me.timeto.shared.vm.readme.ReadmeVm
-import me.timeto.shared.vm.whats_new.WhatsNewVm
+import habitarc.shared.vm.readme.ReadmeVm
+import habitarc.shared.vm.whats_new.WhatsNewVm
 
 @Composable
 fun WhatsNewFs() {

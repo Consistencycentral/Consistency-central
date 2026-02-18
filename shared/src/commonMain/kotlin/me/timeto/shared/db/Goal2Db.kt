@@ -1,4 +1,4 @@
-package me.timeto.shared.db
+package habitarc.shared.db
 
 import app.cash.sqldelight.coroutines.asFlow
 import dbsq.ActivitySQ
@@ -14,25 +14,25 @@ import kotlinx.serialization.json.int
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
-import me.timeto.shared.Cache
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.HomeButtonSort
-import me.timeto.shared.UiException
-import me.timeto.shared.UnixTime
-import me.timeto.shared.backups.Backupable__Holder
-import me.timeto.shared.backups.Backupable__Item
-import me.timeto.shared.db.Goal2Db.Period
-import me.timeto.shared.getInt
-import me.timeto.shared.getIntOrNull
-import me.timeto.shared.getString
-import me.timeto.shared.removeDuplicateSpaces
-import me.timeto.shared.textFeatures
-import me.timeto.shared.time
-import me.timeto.shared.toBoolean10
-import me.timeto.shared.toInt10
-import me.timeto.shared.toJsonArray
-import me.timeto.shared.vm.home.buttons.homeButtonsCellsCount
-import me.timeto.shared.zlog
+import habitarc.shared.Cache
+import habitarc.shared.ColorRgba
+import habitarc.shared.HomeButtonSort
+import habitarc.shared.UiException
+import habitarc.shared.UnixTime
+import habitarc.shared.backups.Backupable__Holder
+import habitarc.shared.backups.Backupable__Item
+import habitarc.shared.db.Goal2Db.Period
+import habitarc.shared.getInt
+import habitarc.shared.getIntOrNull
+import habitarc.shared.getString
+import habitarc.shared.removeDuplicateSpaces
+import habitarc.shared.textFeatures
+import habitarc.shared.time
+import habitarc.shared.toBoolean10
+import habitarc.shared.toInt10
+import habitarc.shared.toJsonArray
+import habitarc.shared.vm.home.buttons.homeButtonsCellsCount
+import habitarc.shared.zlog
 import kotlin.coroutines.cancellation.CancellationException
 
 data class Goal2Db(

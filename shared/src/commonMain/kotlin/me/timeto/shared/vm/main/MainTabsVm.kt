@@ -1,14 +1,14 @@
-package me.timeto.shared.vm.main
+package habitarc.shared.vm.main
 
 import kotlinx.coroutines.flow.*
-import me.timeto.shared.Cache
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.BatteryInfo
-import me.timeto.shared.ColorEnum
-import me.timeto.shared.TimeFlows
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.ColorRgba
+import habitarc.shared.UnixTime
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.BatteryInfo
+import habitarc.shared.ColorEnum
+import habitarc.shared.TimeFlows
+import habitarc.shared.vm.Vm
 
 class MainTabsVm : Vm<MainTabsVm.State>() {
 

@@ -1,4 +1,4 @@
-package me.timeto.shared.backups
+package habitarc.shared.backups
 
 import kotlinx.serialization.json.JsonElement
 

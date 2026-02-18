@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonObject
-import me.timeto.shared.db.KvDb
+import habitarc.shared.db.KvDb
 
 val pingTriggerFlow = MutableStateFlow(0)
 

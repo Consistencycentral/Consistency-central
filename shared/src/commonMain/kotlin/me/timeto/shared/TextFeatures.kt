@@ -1,8 +1,8 @@
-package me.timeto.shared
+package habitarc.shared
 
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.ShortcutDb
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.ShortcutDb
 import kotlin.math.absoluteValue
 
 data class TextFeatures(

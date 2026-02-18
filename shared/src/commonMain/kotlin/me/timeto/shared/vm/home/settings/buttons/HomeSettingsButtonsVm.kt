@@ -1,17 +1,17 @@
-package me.timeto.shared.vm.home.settings.buttons
+package habitarc.shared.vm.home.settings.buttons
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import me.timeto.shared.Cache
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.HomeButtonSort
-import me.timeto.shared.Palette
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.launchExIo
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.vm.Vm
-import me.timeto.shared.vm.home.buttons.homeButtonsCellsCount
+import habitarc.shared.Cache
+import habitarc.shared.ColorRgba
+import habitarc.shared.HomeButtonSort
+import habitarc.shared.Palette
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.launchExIo
+import habitarc.shared.onEachExIn
+import habitarc.shared.vm.Vm
+import habitarc.shared.vm.home.buttons.homeButtonsCellsCount
 import kotlin.math.absoluteValue
 
 typealias ButtonUi = HomeSettingsButtonUi

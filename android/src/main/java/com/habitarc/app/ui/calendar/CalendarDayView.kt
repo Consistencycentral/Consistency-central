@@ -28,7 +28,7 @@ import com.habitarc.app.ui.calendar.list.CalendarListItemView
 import com.habitarc.app.ui.events.EventFormFs
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.tasks.tab.repeatings.TasksTabRepeatingsItemView
-import me.timeto.shared.vm.calendar.CalendarDayVm
+import habitarc.shared.vm.calendar.CalendarDayVm
 
 @Composable
 fun CalendarDayView(

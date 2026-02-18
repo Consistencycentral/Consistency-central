@@ -1,17 +1,17 @@
-package me.timeto.shared.db
+package habitarc.shared.db
 
 import dbsq.EventSQ
 import kotlinx.coroutines.flow.Flow
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.jsonArray
-import me.timeto.shared.*
-import me.timeto.shared.backups.Backupable__Holder
-import me.timeto.shared.backups.Backupable__Item
-import me.timeto.shared.getInt
-import me.timeto.shared.getString
-import me.timeto.shared.time
-import me.timeto.shared.toJsonArray
-import me.timeto.shared.UiException
+import habitarc.shared.*
+import habitarc.shared.backups.Backupable__Holder
+import habitarc.shared.backups.Backupable__Item
+import habitarc.shared.getInt
+import habitarc.shared.getString
+import habitarc.shared.time
+import habitarc.shared.toJsonArray
+import habitarc.shared.UiException
 
 data class EventDb(
     val id: Int,

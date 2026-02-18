@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 class TimerTimeParser(
     val seconds: Int,

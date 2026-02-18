@@ -1,8 +1,8 @@
-package me.timeto.shared.vm.home.settings.buttons
+package habitarc.shared.vm.home.settings.buttons
 
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.HomeButtonSort
-import me.timeto.shared.vm.home.buttons.homeButtonsCellsCount
+import habitarc.shared.ColorRgba
+import habitarc.shared.HomeButtonSort
+import habitarc.shared.vm.home.buttons.homeButtonsCellsCount
 import kotlin.math.absoluteValue
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid

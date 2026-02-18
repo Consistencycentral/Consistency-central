@@ -1,19 +1,19 @@
-package me.timeto.shared.vm.home
+package habitarc.shared.vm.home
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
-import me.timeto.shared.*
-import me.timeto.shared.db.*
-import me.timeto.shared.db.KvDb.Companion.todayOnHomeScreen
-import me.timeto.shared.limitMin
-import me.timeto.shared.SystemInfo
-import me.timeto.shared.TaskUi
-import me.timeto.shared.sortedUi
-import me.timeto.shared.time
-import me.timeto.shared.TimerStateUi
-import me.timeto.shared.vm.whats_new.WhatsNewVm
-import me.timeto.shared.vm.Vm
+import habitarc.shared.*
+import habitarc.shared.db.*
+import habitarc.shared.db.KvDb.Companion.todayOnHomeScreen
+import habitarc.shared.limitMin
+import habitarc.shared.SystemInfo
+import habitarc.shared.TaskUi
+import habitarc.shared.sortedUi
+import habitarc.shared.time
+import habitarc.shared.TimerStateUi
+import habitarc.shared.vm.whats_new.WhatsNewVm
+import habitarc.shared.vm.Vm
 import kotlin.math.absoluteValue
 
 class HomeVm : Vm<HomeVm.State>() {

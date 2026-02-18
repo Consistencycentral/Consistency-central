@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 /**
  * File names without extension must be unique!

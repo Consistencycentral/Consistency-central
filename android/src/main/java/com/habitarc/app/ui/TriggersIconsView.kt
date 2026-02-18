@@ -15,9 +15,9 @@ import androidx.compose.ui.unit.dp
 import com.habitarc.app.R
 import com.habitarc.app.ui.checklists.ChecklistScreen
 import com.habitarc.app.ui.navigation.LocalNavigationFs
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.performUi
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.performUi
 
 private val iconShape = RoundedCornerShape(6.dp)
 

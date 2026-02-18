@@ -29,7 +29,7 @@ import com.habitarc.app.ui.header.sheet.HeaderSheet
 import com.habitarc.app.ui.header.sheet.HeaderSheetButton
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
 import com.habitarc.app.ui.squircleShape
-import me.timeto.shared.vm.timer_picker.TimerPickerVm
+import habitarc.shared.vm.timer_picker.TimerPickerVm
 
 @Composable
 fun TimerSheet(

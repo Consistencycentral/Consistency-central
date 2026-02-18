@@ -1,16 +1,16 @@
-package me.timeto.shared.vm.history.form
+package habitarc.shared.vm.history.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.time
-import me.timeto.shared.textFeatures
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.launchExIo
+import habitarc.shared.time
+import habitarc.shared.textFeatures
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.Vm
 
 class HistoryFormVm(
     initIntervalDb: IntervalDb,

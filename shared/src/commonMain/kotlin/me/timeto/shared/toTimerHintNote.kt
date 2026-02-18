@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 fun Int.toTimerHintNote(
     isShort: Boolean,

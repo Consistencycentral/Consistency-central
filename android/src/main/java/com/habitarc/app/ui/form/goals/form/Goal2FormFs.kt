@@ -37,8 +37,8 @@ import com.habitarc.app.ui.rememberVm
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.shortcuts.ShortcutsPickerFs
 import com.habitarc.app.ui.timer.TimerSheet
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.goals.form.Goal2FormVm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.goals.form.Goal2FormVm
 
 @Composable
 fun Goal2FormFs(

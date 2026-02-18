@@ -21,8 +21,8 @@ import com.habitarc.app.ui.header.HeaderActionButton
 import com.habitarc.app.ui.header.HeaderCancelButton
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.vm.checklists.form.ChecklistFormVm
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.vm.checklists.form.ChecklistFormVm
 
 @Composable
 fun ChecklistFormFs(

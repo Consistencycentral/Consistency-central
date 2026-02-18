@@ -1,13 +1,13 @@
-package me.timeto.shared.vm.emoji
+package habitarc.shared.vm.emoji
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonPrimitive
-import me.timeto.shared.getResourceContent
-import me.timeto.shared.launchEx
-import me.timeto.shared.vm.Vm
+import habitarc.shared.getResourceContent
+import habitarc.shared.launchEx
+import habitarc.shared.vm.Vm
 
 class EmojiPickerVm : Vm<EmojiPickerVm.State>() {
 

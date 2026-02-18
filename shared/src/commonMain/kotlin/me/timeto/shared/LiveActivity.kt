@@ -1,8 +1,8 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.MutableSharedFlow
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.IntervalDb
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.IntervalDb
 
 data class LiveActivity(
     val intervalDb: IntervalDb,

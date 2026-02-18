@@ -1,4 +1,4 @@
-package me.timeto.shared
+package habitarc.shared
 
 /**
  * Do use only elements from the array, otherwise Exception

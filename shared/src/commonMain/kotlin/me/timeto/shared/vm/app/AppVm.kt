@@ -1,15 +1,15 @@
-package me.timeto.shared.vm.app
+package habitarc.shared.vm.app
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
-import me.timeto.shared.*
-import me.timeto.shared.db.*
-import me.timeto.shared.time
-import me.timeto.shared.ShortcutPerformer
-import me.timeto.shared.db.KvDb.Companion.isSendingReports
-import me.timeto.shared.vm.whats_new.WhatsNewVm
-import me.timeto.shared.vm.Vm
+import habitarc.shared.*
+import habitarc.shared.db.*
+import habitarc.shared.time
+import habitarc.shared.ShortcutPerformer
+import habitarc.shared.db.KvDb.Companion.isSendingReports
+import habitarc.shared.vm.whats_new.WhatsNewVm
+import habitarc.shared.vm.Vm
 
 class AppVm : Vm<AppVm.State>() {
 

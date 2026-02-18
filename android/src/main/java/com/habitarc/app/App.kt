@@ -1,7 +1,7 @@
 package com.habitarc.app
 
 import android.app.Application
-import me.timeto.shared.initKmpAndroid
+import habitarc.shared.initKmpAndroid
 
 class App : Application() {
 

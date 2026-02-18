@@ -3,7 +3,7 @@ package com.habitarc.app
 import android.content.Intent
 import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.net.Uri
-import me.timeto.shared.openSourceUrl
+import habitarc.shared.openSourceUrl
 
 fun showOpenSource() {
     App.instance.startActivity(

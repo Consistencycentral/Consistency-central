@@ -1,17 +1,17 @@
-package me.timeto.shared.vm.history
+package habitarc.shared.vm.history
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
-import me.timeto.shared.*
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.limitMax
-import me.timeto.shared.limitMin
-import me.timeto.shared.time
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.history.form.HistoryFormUtils
-import me.timeto.shared.vm.Vm
+import habitarc.shared.*
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.limitMax
+import habitarc.shared.limitMin
+import habitarc.shared.time
+import habitarc.shared.DialogsManager
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.history.form.HistoryFormUtils
+import habitarc.shared.vm.Vm
 
 private const val initInDays: Int = -1
 

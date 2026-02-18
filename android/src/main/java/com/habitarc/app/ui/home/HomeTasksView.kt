@@ -29,8 +29,8 @@ import com.habitarc.app.ui.onePx
 import com.habitarc.app.ui.roundedShape
 import com.habitarc.app.ui.navigation.LocalNavigationFs
 import com.habitarc.app.ui.tasks.TaskTimerFs
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.vm.home.HomeVm
+import habitarc.shared.TextFeatures
+import habitarc.shared.vm.home.HomeVm
 
 private val mainTaskInnerHPadding: Dp = 7.dp
 private val mainTaskOuterHPadding: Dp = HomeScreen__hPadding - mainTaskInnerHPadding

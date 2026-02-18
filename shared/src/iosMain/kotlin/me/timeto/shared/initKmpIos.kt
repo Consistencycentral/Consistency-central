@@ -1,13 +1,13 @@
 @file:OptIn(ExperimentalForeignApi::class)
 
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.cinterop.*
 import kotlinx.coroutines.flow.launchIn
 import com.habitarc.appdbsq.TimetomeDB
 import platform.Foundation.*
 import platform.UIKit.UIDevice
-import me.timeto.shared.db.*
+import habitarc.shared.db.*
 
 fun initKmpIos() {
     val systemInfo = SystemInfo(

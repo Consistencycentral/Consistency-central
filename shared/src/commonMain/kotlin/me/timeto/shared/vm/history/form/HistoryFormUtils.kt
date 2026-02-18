@@ -1,12 +1,12 @@
-package me.timeto.shared.vm.history.form
+package habitarc.shared.vm.history.form
 
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.textFeatures
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.Goal2Db
+import habitarc.shared.UnixTime
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.launchExIo
+import habitarc.shared.textFeatures
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.Goal2Db
 
 object HistoryFormUtils {
 

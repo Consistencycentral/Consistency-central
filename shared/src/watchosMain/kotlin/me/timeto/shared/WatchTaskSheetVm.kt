@@ -1,9 +1,9 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.flow.*
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.db.TaskDb
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.db.TaskDb
+import habitarc.shared.vm.Vm
 
 class WatchTaskSheetVm(
     val taskDb: TaskDb,

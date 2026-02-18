@@ -1,15 +1,15 @@
-package me.timeto.shared.vm.tasks.tab.repeatings
+package habitarc.shared.vm.tasks.tab.repeatings
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.UnixTime
-import me.timeto.shared.db.RepeatingDb
-import me.timeto.shared.onEachExIn
-import me.timeto.shared.textFeatures
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.DaytimeUi
+import habitarc.shared.TextFeatures
+import habitarc.shared.UnixTime
+import habitarc.shared.db.RepeatingDb
+import habitarc.shared.onEachExIn
+import habitarc.shared.textFeatures
+import habitarc.shared.vm.Vm
 
 class TasksTabRepeatingsVm : Vm<TasksTabRepeatingsVm.State>() {
 

@@ -1,6 +1,6 @@
-package me.timeto.shared
+package habitarc.shared
 
-import me.timeto.shared.db.TaskDb
+import habitarc.shared.db.TaskDb
 
 data class TaskUi(
     val taskDb: TaskDb,

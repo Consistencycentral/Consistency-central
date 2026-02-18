@@ -1,20 +1,20 @@
-package me.timeto.shared.vm.events.templates
+package habitarc.shared.vm.events.templates
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.Cache
-import me.timeto.shared.TextFeatures
-import me.timeto.shared.db.ChecklistDb
-import me.timeto.shared.db.EventTemplateDb
-import me.timeto.shared.db.ShortcutDb
-import me.timeto.shared.launchExIo
-import me.timeto.shared.DaytimeUi
-import me.timeto.shared.textFeatures
-import me.timeto.shared.toTimerHintNote
-import me.timeto.shared.DialogsManager
-import me.timeto.shared.UiException
-import me.timeto.shared.db.Goal2Db
-import me.timeto.shared.vm.Vm
+import habitarc.shared.Cache
+import habitarc.shared.TextFeatures
+import habitarc.shared.db.ChecklistDb
+import habitarc.shared.db.EventTemplateDb
+import habitarc.shared.db.ShortcutDb
+import habitarc.shared.launchExIo
+import habitarc.shared.DaytimeUi
+import habitarc.shared.textFeatures
+import habitarc.shared.toTimerHintNote
+import habitarc.shared.DialogsManager
+import habitarc.shared.UiException
+import habitarc.shared.db.Goal2Db
+import habitarc.shared.vm.Vm
 
 class EventTemplateFormVm(
     val initEventTemplateDb: EventTemplateDb?,

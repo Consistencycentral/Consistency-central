@@ -1,8 +1,8 @@
-package me.timeto.shared.backups
+package habitarc.shared.backups
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.UnixTime
+import habitarc.shared.UnixTime
 
 object AutoBackup {
 

@@ -1,12 +1,12 @@
-package me.timeto.shared
+package habitarc.shared
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import me.timeto.shared.db.IntervalDb
-import me.timeto.shared.vm.Vm
+import habitarc.shared.db.IntervalDb
+import habitarc.shared.vm.Vm
 
 class WatchTimerVm : Vm<WatchTimerVm.State>() {
 

@@ -29,8 +29,8 @@ import com.habitarc.app.ui.squircleShape
 import com.habitarc.app.toColor
 import com.habitarc.app.ui.Screen
 import com.habitarc.app.ui.navigation.LocalNavigationLayer
-import me.timeto.shared.ColorRgba
-import me.timeto.shared.vm.color_picker.ColorPickerVm
+import habitarc.shared.ColorRgba
+import habitarc.shared.vm.color_picker.ColorPickerVm
 
 // todo prevent navigation back
 

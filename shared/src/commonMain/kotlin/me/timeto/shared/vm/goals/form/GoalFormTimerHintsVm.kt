@@ -1,9 +1,9 @@
-package me.timeto.shared.vm.goals.form
+package habitarc.shared.vm.goals.form
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
-import me.timeto.shared.toTimerHintNote
-import me.timeto.shared.vm.Vm
+import habitarc.shared.toTimerHintNote
+import habitarc.shared.vm.Vm
 
 class GoalFormTimerHintsVm(
     initTimerHints: List<Int>,

@@ -12,12 +12,12 @@
                      android:maxSdkVersion="32"/>
 
     <application
-        android:name=".App"
+        android:label="@string/habitarc"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="habitarc"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Habitarc">
+        android:theme="@style/Theme.habitarc">
 
         <activity
             android:name=".MainActivity"

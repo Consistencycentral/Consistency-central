@@ -1,0 +1,26 @@
+name: Package and Download App
+
+# This lets you start the download manually
+on:
+  workflow_dispatch: 
+
+jobs:
+  bundle-code:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Get all your code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Step 2: Create a zip file of your application
+      - name: Archive Application
+        run: zip -r my-application.zip . -x ".git/*" ".github/*"
+
+      # Step 3: Upload the zip file so you can download it
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Download-My-App
+          path: my-application.zip
+          retention-days: 5
